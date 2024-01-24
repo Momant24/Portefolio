@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+
+
+body {
+    margin: 0px;
+    background-color: #416165;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #0B3948;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5vw;
+    gap: 200px;
+    
+    padding: 10px;
+    width: 90vw;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 150%;
+    
+    
+}
+
+.textnav a {
+    padding: 25px;
+    
+}
+
+.textnav a:hover {
+    background-color: #528991;
+    
+    
+}
+
+nav img {
+    width: 50px;
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4, 
+a {
+    
+    font-family: 'Noto Sans', sans-serif;
+    
+    color: #d0cdd7;
+    
+}
+.overskrift {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1VH;
+    
+    
+}
+.bildeogteksthjem{
+    display: flex;
+    gap: 30vw;
+    margin-top: 20vh;
+}
+.bildeogteksthjem p, h1{
+    font-size: 2rem;
+}
+.hjembilde{
+    width: 20vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+}
+.video iframe{
+    margin-top: 6vh;
+    width: 23vw;
+    height: 22vh;
+}
+#hvitstrek{
+    width: 30%;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 6%;
+    border-color: white;
+}
+
+.bilder {
+    display: flex;
+    justify-content: center;
+}
+
+.bilder img {
+    width: 20vw;
+}
+
+
+
+.footer{
+    background-color: #0B3948;
+    color: white;
+    display: flex;
+    gap: 50%;
+    margin-top: auto;
+    justify-content: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 100%;
+}
+
+.Altportefolie{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.Lacrosse {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.Lacrosse img{
+    flex: 50%;
+    width: 21vw;
+    background-color: #d0cdd7;
+    border-radius: 25px;
+    
+}
+.Lacrosse p{
+    flex: 50%;
+    padding: 34px;
+    background-color: #0B3948;
+    border-radius: 25px;
+    margin: 25px;
+    font-size: medium;
+    width: 18vw;
+}
+.Ainettside img{
+    width: 10vw;
+    flex: 50%;
+    background-color: #d0cdd7;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+.Ainettside p{
+    flex: 50%;
+    padding: 25px;
+    background-color: #0B3948;
+    border-radius: 25px;
+    margin: 25px;
+    font-size: medium;
+    width: 9vw;
+    
+}
+
+.Ainettside{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.brukerveiledning img{
+    width: 17vw;
+    flex: 50%;
+    background-color: #d0cdd7;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+.brukerveiledning p{
+    flex: 50%;
+    padding: 25px;
+    background-color: #0B3948;
+    border-radius: 25px;
+    margin: 25px;
+    font-size: medium;
+    width: 16vw;
+}
+.brukerveiledning{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.vikingtatovering img{
+    margin-top: 10%;
+    width: 25vw;
+    background-color: #d0cdd7;
+    border-radius: 25px;
+}
+.vikingtatovering p{
+    
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: #0B3948;
+    border-radius: 25px;
+    margin: 25px;
+    font-size: medium;
+    width: 20vw;
+}
+.vikingtatovering{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.about{
+    padding-left: 200px;
+}
+
+.tekstommeg {
+    width: 20%;
+    padding-left: 200px;
+    flex-direction: column;
+    & * {
+        display: flex;
+        justify-content: left;
+        
+    }
+    
+}
+.bildeogtekst{
+    display: flex;  
+    margin-bottom: 11vw;
+    gap: 15vw;
+}
+.bildeogattest{
+    display: flex;
+    gap: 7vw;
+    flex-wrap: wrap;
+    
+}
+.martinbilde{
+    width: 16vw;
+    height: fit-content;
+}
+.attest img{
+    width: 17vw;
+    
+}
+.about{
+    margin-top: 10vh;
+}
